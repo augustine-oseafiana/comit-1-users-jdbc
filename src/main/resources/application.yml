@@ -1,1 +1,10 @@
+# Tomcat Server
 
+server:
+  port: 8080
+  
+  
+# Logger
+logging.level:
+  web: DEBUG
+  '[com.comit.users]': DEBUG
