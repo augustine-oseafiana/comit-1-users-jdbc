@@ -8,3 +8,9 @@ server:
 logging.level:
   web: DEBUG
   '[com.comit.users]': DEBUG
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/usersdb
+    username: root
+    password: Dubblin080@
